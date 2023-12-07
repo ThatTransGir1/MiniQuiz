@@ -57,7 +57,18 @@ def question(qn,pval,qns,pnts):
   qnum = qns + 1
   time.sleep(2)
   os.system("clear")
-
+def questions():
+  question(q1,pval=4,qns=qnum,pnts=points)
+  question(q2, pval=2, qns=qnum, pnts=points)
+  question(q3, pval=2, qns=qnum, pnts=points)
+  question(q4, pval=2, qns=qnum, pnts=points)
+  question(q5, pval=4, qns=qnum, pnts=points)
+  question(q6, pval=2, qns=qnum, pnts=points)
+  question(q7, pval=4, qns=qnum, pnts=points)
+  question(q8, pval=2, qns=qnum, pnts=points)
+  question(q9, pval=2, qns=qnum, pnts=points)
+  question(q10, pval=2, qns=qnum, pnts=points)
+  question(q11, pval=4, qns=qnum, pnts=points)
 def start():
   os.system("clear")
   print(" __      __       .__                               \n/  \    /  \ ____ |  |   ____  ____   _____   ____  \n\   \/\/   // __ \|  | _/ ___\/  _ \ /     \_/ __ \ \n \        /\  ___/|  |_\  \__(  <_> )  Y Y  \  ___/ \n  \__/\  /  \___  >____/\___  >____/|__|_|  /\___  >\n       \/       \/          \/            \/     \/ ")
@@ -70,16 +81,6 @@ def start():
   os.system("clear")
   print("The quiz has started\n\n")
 start()
-question(q1,pval=4,qns=qnum,pnts=points)
-question(q2, pval=2, qns=qnum, pnts=points)
-question(q3, pval=2, qns=qnum, pnts=points)
-question(q4, pval=2, qns=qnum, pnts=points)
-question(q5, pval=4, qns=qnum, pnts=points)
-question(q6, pval=2, qns=qnum, pnts=points)
-question(q7, pval=4, qns=qnum, pnts=points)
-question(q8, pval=2, qns=qnum, pnts=points)
-question(q9, pval=2, qns=qnum, pnts=points)
-question(q10, pval=2, qns=qnum, pnts=points)
-question(q11, pval=4, qns=qnum, pnts=points)
+questions()
 print("You have finished the quiz your score is: " + points + "/30.")
 #f.close
