@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the primary purpose of using pseudocode in software development?",
+    "A": "To create detailed program documentations",
+    "B": "To execute the program directly",
+    "C": "To design user interfaces",
+    "D": "To generate machine code",
+    "answer": "A"
+  },
+  {
+    "question": "In a flowchart, what shape is commonly used to represent a process or action?",
+    "A": "Oval",
+    "B": "Rectangle",
+    "C": "Diamond",
+    "D": "Parallelogram",
+    "answer": "B"
+  },
+  {
+    "question": "What does a decision symbol in a flowchart typically represent?",
+    "A": "A loop or iteration",
+    "B": "Input or output",
+    "C": "A decision point with branching",
+    "D": "Sequential execution",
+    "answer": "C"
+  },
+  {
+    "question": "When designing a flowchart or pseudocode what is the purpose of using connectors or arrows?",
+    "A": "To indicate the start and end of the program",
+    "B": "To show the direction of program flow",
+    "C": "To represent data input and output",
+    "D": "To create loops and iteration",
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is a key advantage of using pseudocode over actual code when planning a program?",
+    "A": "Pseudocode can be directly executed by the computer",
+    "B": "Pseudocode is more efficient in terms of execution",
+    "C": "Pseudocode is platform-independent and language-neutral",
+    "D": "Pseudocode is only used for graphical representation",
+    "answer": "C"
+  },
+  {
+    "question": "In a flowchart, what does the symbol of a parallelogram typically represent?",
+    "A": "Input or output",
+    "B": "A process or action",
+    "C": "A decision point with branching",
+    "D": "A start or end point",
+    "answer": "A"
+  },
+  {
+    "question": "What does a terminator symbol in a flowchart usually represent?",
+    "A": "A process or action",
+    "B": "A decision point with branching",
+    "C": "The start or end point of a program",
+    "D": "Input or output",
+    "answer": "C"
+  },
+  {
+    "question": "In pseudocode, what keyword is commonly used to indicate the start of a loop?",
+    "A": "START",
+    "B": "BEGIN",
+    "C": "LOOP",
+    "D": "REPEAT",
+    "answer": "D"
+  },
+  {
+    "question": "How is a subroutine or function typically represented in a flowchart?",
+    "A": "Oval",
+    "B": "Rectangle",
+    "C": "Diamond",
+    "D": "Parallelogram",
+    "answer": "B"
+  },
+  {
+    "question": "What does the diamond-shaped symbol in a flowchart usually represent?",
+    "A": "Input or output",
+    "B": "A process or action",
+    "C": "A decision point with branching",
+    "D": "A subroutine or function",
+    "answer": "C"
+  },
+  {
+    "question": "In pseudocode, what is the purpose of the keyword 'OUTPUT'?",
+    "A": "To request user input",
+    "B": "To perfrom a calculation",
+    "C": "To display output to the user",
+    "D": "To terminate the program",
+    "answer": "C"
+  },
+  {
+    "question": "When designing a flowchart, what is the purpose of using a connector with an arrow?",
+    "A": "To indicate a decision point",
+    "B": "To show the flow of control between steps",
+    "C": "To indicate the start of a loop",
+    "D": "",
+    "answer": ""
+  }
+]
