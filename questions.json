@@ -86,13 +86,5 @@
     "C": "To display output to the user",
     "D": "To terminate the program",
     "answer": "C"
-  },
-  {
-    "question": "When designing a flowchart, what is the purpose of using a connector with an arrow?",
-    "A": "To indicate a decision point",
-    "B": "To show the flow of control between steps",
-    "C": "To indicate the start of a loop",
-    "D": "",
-    "answer": ""
   }
 ]
