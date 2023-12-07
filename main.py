@@ -4,12 +4,14 @@ import datetime
 import json
 import os
 import sys
+from requests import get as rget
+
+res = rget("https://thegamershollow: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@raw.githubusercontent.com/thegamershollow/miniquizquestions/main/questions.json")
 
 points = 0
 qnum = 1
 endq = "False"
 jsonpath = "questions.json"
-
 f = open(jsonpath)
 data = json.load(f)
 q1 = data[0]
