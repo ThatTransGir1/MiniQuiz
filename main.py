@@ -47,6 +47,7 @@ def question(qn,pval,qns,pnts):
   global points
   global qnum
   global data
+  print("Current Score: " + str(points))
   jprint(qn)
   i = input("Answer: ")
   c = check(qn)
@@ -76,13 +77,13 @@ def start():
   print(" __      __       .__                               \n/  \    /  \ ____ |  |   ____  ____   _____   ____  \n\   \/\/   // __ \|  | _/ ___\/  _ \ /     \_/ __ \ \n \        /\  ___/|  |_\  \__(  <_> )  Y Y  \  ___/ \n  \__/\  /  \___  >____/\___  >____/|__|_|  /\___  >\n       \/       \/          \/            \/     \/ ")
   print("This is a quiz on Pseudocode and Flowcharts.\n\n")
   print("If you use the timer you will have 3 minutes to complete the quiz.")
-  var = input("Would you like to use a timer [y/n]: ")
+  #var = input("Would you like to use a timer [y/n]: ")
   i = input("Press enter to start the quiz:")
-  if var.lower() == "y":
-    countdown(180)
+  #if var.lower() == "y":
+  #  countdown(180)
   os.system("clear")
   print("The quiz has started\n\n")
 start()
 questions()
-print("You have finished the quiz your score is: " + points + "/30.")
-#f.close
+print("You have finished the quiz your score is: " + str(points) + "/30.")
+f.close
